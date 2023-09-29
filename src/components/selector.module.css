@@ -1,0 +1,22 @@
+.divs {
+  font-family:cursive;
+  text-align: center; /* Center the select element within the container */
+}
+
+.select {
+  background-color: #0f0ff7; /* Change the background color to a blue shade */
+  color: #fff; /* Set the text color to white */
+  height: 3rem; /* Reduce the height to a fixed size */
+  width: 12rem; /* Increase the width for better visibility */
+  font-size: 1.5rem; /* Slightly reduce the font size */
+  font-weight: bold;
+  border: none; /* Remove the border */
+  border-radius: 5px; /* Apply rounded corners */
+  cursor: pointer;
+  outline: none; /* Remove the focus outline */
+  transition: background-color 0.9s ease-in-out;
+}
+
+.select:hover {
+  background-color: #1881eb; /* Darken the background color on hover */
+}
